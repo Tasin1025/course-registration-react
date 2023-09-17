@@ -1,5 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+
 
 
 function Home() {
@@ -17,22 +20,26 @@ function Home() {
 
     const handleSelectCourse = (course) => {
         const newTotalCreditHour = totalCreditHour + course.credit_hour;
-        
-        if (newTotalCreditHour <= 20) {
-            setSelectedCourses([...selectedCourses, course]);
-            setTotalCreditHour(newTotalCreditHour);
-            setTotalPrice(prevTotalPrice => prevTotalPrice + course.price);
-        } else {
-            alert("Maximum is 20 credit hours.");
+    
+        if (newTotalCreditHour > 20) {
+            toast.error("Maximum is 20 credit hours.");  // This is where we show the toast.
+            return; // Return early to prevent further logic.
         }
+    
+        setSelectedCourses([...selectedCourses, course]);
+        setTotalCreditHour(newTotalCreditHour);
+        setTotalPrice(prevTotalPrice => prevTotalPrice + course.price);
     };
+    
 
     const isCourseSelected = (course) => {
         return selectedCourses.includes(course);
     };
 
     return (
+        
         <div>
+            <ToastContainer position="top-right" />
             <div className=" flex" >
                 <div className=" flex-auto w-1/2">
                     <h1 className='text-2xl text-center px-5 font-bold pt-6 pb-6'> Course Registration</h1>
