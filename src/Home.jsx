@@ -23,7 +23,7 @@ function Home() {
             setTotalCreditHour(newTotalCreditHour);
             setTotalPrice(prevTotalPrice => prevTotalPrice + course.price);
         } else {
-            alert("Maximum credit hour limit crossed. Maximum is 20 credit hours.");
+            alert("Maximum is 20 credit hours.");
         }
     };
 
