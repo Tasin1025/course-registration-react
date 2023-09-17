@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to Programming",
+      "credit_hour": 3,
+      "price": 299,
+      "description": "Learn the basics of programming with this introductory course.",
+      "image": "../src/assets/Rectangle 2-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Data Structures and Algorithms",
+      "credit_hour": 4,
+      "price": 399,
+      "description": "Master data structures and algorithms in this comprehensive course.",
+      "image": "../src/assets/Rectangle 2-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Web Development Fundamentals",
+      "credit_hour": 3,
+      "price": 249,
+      "description": "Get started with web development and build your first websites.",
+      "image": "../src/assets/Rectangle 2-3.png"
+    },
+    {
+      "id": 4,
+      "title": "Machine Learning Basics",
+      "credit_hour": 4,
+      "price": 499,
+      "description": "Explore the fundamentals of machine learning and AI.",
+      "image": "../src/assets/Rectangle 2-4.png"
+    },
+    {
+      "id": 5,
+      "title": "Graphic Design Essentials",
+      "credit_hour": 3,
+      "price": 299,
+      "description": "Learn the principles of graphic design and create stunning visuals.",
+      "image": "../src/assets/Rectangle 2-5.png"
+    },
+    {
+      "id": 6,
+      "title": "Digital Marketing Strategies",
+      "credit_hour": 3,
+      "price": 349,
+      "description": "Boost your online presence with effective digital marketing techniques.",
+      "image": "../src/assets/Rectangle 2-6.png"
+    },
+    {
+      "id": 7,
+      "title": "Financial Planning and Management",
+      "credit_hour": 4,
+      "price": 399,
+      "description": "Learn how to manage your finances and make informed financial decisions.",
+      "image": "../src/assets/Rectangle 2.png"
+    },
+    {
+      "id": 8,
+      "title": "Business Ethics and Corporate Responsibility",
+      "credit_hour": 3,
+      "price": 299,
+      "description": "Understand ethical principles in business and corporate social responsibility.",
+      "image": "../src/assets/Rectangle 3.png"
+    },
+    {
+      "id": 9,
+      "title": "Creative Writing Workshop",
+      "credit_hour": 3,
+      "price": 249,
+      "description": "Unleash your creativity and become a better writer in this workshop.",
+      "image": "../src/assets/Rectangle 3-1.png"
+    }
+  ]
+  
