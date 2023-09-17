@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
-import './Home.css';
+
 
 function Home() {
     const [courses, setCourses] = useState([]);
@@ -33,8 +33,8 @@ function Home() {
 
     return (
         <div>
-            <div className="content-container flex" >
-                <div className="course-cards flex-auto w-1/2">
+            <div className=" flex" >
+                <div className=" flex-auto w-1/2">
                     <h1 className='text-2xl text-center px-5 font-bold pt-6 pb-6'> Course Registration</h1>
                     <div className="cards-container grid grid-cols-3 gap-3 ">
                         {
